@@ -18,56 +18,9 @@
     }
     ],
     "projetos": [
-      {
-        "id": 1,
-        "nomeProjeto": "First",
-        "autorProjeto": "Karen Noguti",
-        "emailUsuario": "karennoguti@gmail.com",
-        "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer, React",
-        "Finalizado": false,
-        "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
-        "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
-        "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
-        "quantidadeParticipante": 5,
-        "participantesProjeto": [
-          "Carolina Laurindo",
-          "Cláudia Carapiá",
-          "Douglas Raynner",
-          "Jéssica Grimaldi",
-          "Jeferson Queiroz"
-        ],
-          "usuarioId":1
-      },
-      {
-        "id": 2,
-        "nomeProjeto": "AgriCont",
-        "autorProjeto": "Cláudia ",
-        "emailUsuario": "agricont@gmail.com",
-        "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
-        "Finalizado": false,
-        "descricaoProjeto": "O objetivo deste projeto é facilitar o controle patrimonial",  "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
-        "repositorio": "github.com/AgriCont",
-        "quantidadeParticipante": 5,
-        "participantesProjeto": [
-          "Carolina Laurindo",
-          "Douglas Raynner",
-          "Jéssica Grimaldi",
-          "Jeferson Queiroz",
-          "Karen Noguti"
-        ],
-          "usuarioId":2
-      }
+      
     ],
     "UsuarioProjeto": [
-      {
-        "id": 1,
-        "usuarioId": 1,
-        "projetosId": 1
-      },
-      {
-        "id": 2,
-        "usuarioId": 2,
-        "projetosId": 2
-      }
+     
     ]
   }
