@@ -35,8 +35,7 @@
           "Douglas Raynner",
           "Jéssica Grimaldi",
           "Jeferson Queiroz"
-        ],
-          "usuarioId":1
+        ]
       },
       {
         "id": 2,
@@ -54,8 +53,7 @@
           "Jéssica Grimaldi",
           "Jeferson Queiroz",
           "Karen Noguti"
-        ],
-          "usuarioId":2
+        ]
       }
     ],
     "UsuarioProjeto": [
