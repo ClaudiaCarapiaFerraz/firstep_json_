@@ -1,5 +1,5 @@
 {
-    "users": [
+    "usuario": [
        {
       "email": "karen@pucminas.br",
       "password": "$2a$10$wnK1TRQ3q5aEbSK2ZW7u.eyCdNW56VLl4By6WAUIfOPkzOAxRjXNG",
@@ -18,7 +18,7 @@
     }
     ],
     "projetos": [
-      {
+        {
         "id": 1,
         "nomeProjeto": "First",
         "autorProjeto": "Karen Noguti",
@@ -40,7 +40,7 @@
       {
         "id": 2,
         "nomeProjeto": "AgriCont",
-        "autorProjeto": "Douglas Raynner",
+        "autorProjeto": "Cláudia ",
         "emailUsuario": "agricont@gmail.com",
         "tecnologias": "HTML, CSS, BootStrap, NET C#,SQLServer",
         "Finalizado": false,
@@ -49,7 +49,7 @@
         "quantidadeParticipante": 5,
         "participantesProjeto": [
           "Carolina Laurindo",
-          "Cláudia Carapiá",
+          "Douglas Raynner",
           "Jéssica Grimaldi",
           "Jeferson Queiroz",
           "Karen Noguti"
@@ -57,15 +57,6 @@
       }
     ],
     "UsuarioProjeto": [
-      {
-        "id": 1,
-        "IdUsuario": 1,
-        "IdProjeto": 2
-      },
-      {
-        "id": 2,
-        "IdUsuario": 2,
-        "IdProjeto": 1
-      }
+     
     ]
   }
