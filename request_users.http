@@ -1,10 +1,10 @@
-### USUARIO
+### USERS
 
-GET http://localhost:3000/usuario
+GET http://localhost:3000/users
 
 ### REGISTER 
 
-POST http://localhost:3000/register/
+POST http://localhost:3000/register
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json
     "nome":"karen Noguti",
     "email": "karen@pucminas.br",
     "password":"12345",
-    "DescricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
+    "descricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
     "gitHub":"github.com/karen"
 
 
