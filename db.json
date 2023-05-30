@@ -31,6 +31,14 @@
       "descricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
       "gitHub": "github.com/karen",
       "id": 4
+    },
+    {
+      "email": "karen@gmail.com",
+      "password": "$2a$10$vyv2M90CwkVKbHqvWZ/00.VDgv5KmlL3wUKYAlDmwnE.HlxE.QahC",
+      "nome": "karen Noguti",
+      "descricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
+      "gitHub": "github.com/karen",
+      "id": 5
     }
   ],
   "projetos": [
@@ -44,12 +52,10 @@
       "descricaoProjeto": "O objetivo geral deste projeto é, através da música, proporcionar momentos de alegria para aliviar as dores físicas e psicológicas de pacientes e familiares. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que permita a conexão entre voluntários com habilidades musicais, instituições, pacientes e seus familiares.",
       "descricaoVaga": "Empresa: Juninho - Dev fullstack jr -  Salário: À Combinar",
       "repositorio": "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t8-projeto-encante-com-a-musica",
-      "quantidadeParticipante": 5,
+      "quantidadeParticipante": 3,
       "participantesProjeto": [
         "Carolina Laurindo",
-        "Cláudia Carapiá",
         "Douglas Raynner",
-        "Jéssica Grimaldi",
         "Jeferson Queiroz"
       ]
     },
@@ -65,10 +71,8 @@
       "repositorio": "github.com/AgriCont",
       "quantidadeParticipante": 5,
       "participantesProjeto": [
-        "Carolina Laurindo",
         "Douglas Raynner",
         "Jéssica Grimaldi",
-        "Jeferson Queiroz",
         "Karen Noguti"
       ]
     }
