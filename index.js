@@ -40,7 +40,7 @@ function doesUserExist(data) {
 
 // Register New User
 server.post('/auth/register', (req, res) => {
-    const { email, password, nome, descricaoPerfil, github } = req.body;
+    const { email, password, nome, descricaoPerfil, repositorio } = req.body;
 
     fs.readFile("./db.json", (err, data) => {
         if (err) {
