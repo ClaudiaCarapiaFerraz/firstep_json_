@@ -1,4 +1,4 @@
-/*const fs = require('fs')
+const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
 const jwt = require('jsonwebtoken')
@@ -150,9 +150,9 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
 server.use(router)
 server.listen(8000, () => {
     console.log('Run Auth API Server')
-})*/
+})
 
-const jsonServer = require("json-server"); // importing json-server library
+/*const jsonServer = require("json-server"); // importing json-server library
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
@@ -161,4 +161,4 @@ const port = process.env.PORT || 3001; // you can use any port number here; i ch
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+server.listen(port);*/
