@@ -17,29 +17,14 @@
       "id": 2
     },
     {
-      "email": "claudia@pucminas.com.br",
-      "password": "$2a$10$kgRs.F9GGDYEktn.9DZVGu/1ZftlCX20JD8HEVd2cx0GW1eBvG0BS",
-      "nome": "Claudia",
-      "descricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
-      "repositorio": "github.com/claudia",
-      "id": 3
-    },
-    {
       "email": "karen@pucminas.com.br",
       "password": "$2a$10$TEUcUqBa1k5ZUm.G32AL1uSj6UU08T2meOjLZ.vM5t8FKPksiF9QS",
       "nome": "karen Noguti",
       "descricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
       "repositorio": "github.com/karen",
-      "id": 4
-    },
-    {
-      "email": "karen@gmail.com",
-      "password": "$2a$10$vyv2M90CwkVKbHqvWZ/00.VDgv5KmlL3wUKYAlDmwnE.HlxE.QahC",
-      "nome": "karen Noguti",
-      "descricaoPerfil": "Sou estudante de ADS, tenho interesse em atuar com desenvolvimento backend e busco projetos para participar com este conhecimento.",
-      "repositorio": "github.com/karen",
-      "id": 5
+      "id": 3
     }
+   
   ],
   "projetos": [
     {
