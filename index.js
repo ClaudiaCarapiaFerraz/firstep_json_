@@ -1,4 +1,4 @@
-/*const fs = require('fs')
+const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
 const jwt = require('jsonwebtoken')
@@ -16,7 +16,7 @@ server.use(jsonServer.defaults());
 
 // CONSTANTES
 const SECRET_KEY = '123456789'
-const expiresIn = '1h'
+const expiresIn = '6h'
 
 // Create a token from a payload 
 function createToken(payload) {
@@ -33,8 +33,8 @@ function isAuthenticated({ email, password, data }) {
     return data.users.findIndex(user => user.email === email && user.password === password) !== -1
 }
 
-// Exist users
-function doesUserExist(data) {
+// Existing users
+function existingUser(data) {
     return data.users.length != 0
 }
 
@@ -61,7 +61,7 @@ server.post('/auth/register', (req, res) => {
         }
 
         // Get the id of last user
-        var last_item_id = doesUserExist(data) ? data.users[data.users.length - 1].id : 1
+        var last_item_id = existingUser(data) ? data.users[data.users.length - 1].id : 1
         var newId = last_item_id + 1
         //Add new user
         data.users.push({
@@ -150,9 +150,9 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
 server.use(router)
 server.listen(8000, () => {
     console.log('Run Auth API Server')
-})*/
+})
 
-const jsonServer = require("json-server"); // importing json-server library
+/*const jsonServer = require("json-server"); // importing json-server library
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
@@ -161,4 +161,4 @@ const port = process.env.PORT || 3001; // you can use any port number here; i ch
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+server.listen(port);*/
